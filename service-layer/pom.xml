@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>hu.javaee.tranining</groupId>
-		<artifactId>application</artifactId>
+		<artifactId>layered_jee_application</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<artifactId>service-layer</artifactId>
