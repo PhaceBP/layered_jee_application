@@ -1,4 +1,4 @@
-# layered_jee_application
+# Standard layered JEE 7 application to training purpose.
 This repository created for JEE internal trainings
 
 1. You can build with this project with mvn clean install command from the root folder.
