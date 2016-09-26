@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Built-By: abaloghbiro
+Class-Path: lib/model-layer-0.0.1-SNAPSHOT.jar lib/eclipselink-2.5.0.j
+ ar lib/javax.persistence-2.1.0.jar lib/commonj.sdo-2.1.1.jar
+Created-By: Apache Maven 3.3.9
+Build-Jdk: 1.8.0_101
+
