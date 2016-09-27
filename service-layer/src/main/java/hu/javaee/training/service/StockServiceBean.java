@@ -7,6 +7,7 @@ import javax.ejb.Stateless;
 import javax.ejb.TransactionAttribute;
 import javax.ejb.TransactionAttributeType;
 import javax.inject.Inject;
+import javax.interceptor.Interceptors;
 import javax.jms.JMSConnectionFactory;
 import javax.jms.JMSContext;
 import javax.jms.JMSRuntimeException;
@@ -16,6 +17,7 @@ import javax.jms.Queue;
 import hu.javaee.training.dao.StockDAO;
 import hu.javaee.tranining.entities.StockDTO;
 
+@Interceptors(value = {LoggerInterceptor.class} )
 @Stateless
 public class StockServiceBean {
 
